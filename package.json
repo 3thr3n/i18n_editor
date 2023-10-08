@@ -1,0 +1,43 @@
+{
+  "name": "i18n_editor",
+  "version": "0.1.0",
+  "description": "A Quasar Project",
+  "productName": "Internationalization editor",
+  "author": "3thr3n <code@codeflowwizardry.de>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,css,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@ladjs/country-language": "^1.0.3",
+    "@quasar/extras": "^1.16.6",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "quasar": "^2.12.7",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.4.1",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^6.0.3",
+    "@quasar/app-vite": "^1.6.2",
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
